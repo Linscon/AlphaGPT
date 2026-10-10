@@ -1,0 +1,26 @@
+{
+  "contract": "BTC_USDT",
+  "interval": "1h",
+  "start": "2026-04-23",
+  "end": "2026-10-10",
+  "steps": 30,
+  "batch_size": 32,
+  "max_len": 12,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "learning_rate": 0.0003,
+  "fee_bps": 5.0,
+  "slippage_bps": 2.0,
+  "signal_threshold": 0.2,
+  "norm_window": 168,
+  "train_fraction": 0.6,
+  "validation_fraction": 0.2,
+  "top_k": 30,
+  "min_entries": 10,
+  "drawdown_penalty": 2.0,
+  "complexity_penalty": 0.005,
+  "api_base": "https://api.gateio.ws/api/v4"
+}
